@@ -22,7 +22,7 @@ public class HomeVacanciesPageTest extends BaseTest {
 	}
 
 	@Test(priority = 3)
-	public void acceptCookiesPopup() {
+	public void acceptCookiesPopupTest() {
 		homePage.acceptCookiesPopUp();
 	}
 
@@ -37,7 +37,7 @@ public class HomeVacanciesPageTest extends BaseTest {
 	}
 	
 	@Test(priority = 5)
-	public void filterOnVacanciesPage() {
+	public void filterOnVacanciesPageTest() {
 		
 		vacanciesPage.dofilter("Frontend");
 		String actkeywordInPageTitle = vacanciesPage.getkeywordInPageTitle();
