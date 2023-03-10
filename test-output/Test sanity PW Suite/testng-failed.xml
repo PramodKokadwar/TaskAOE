@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Test sanity PW Suite]">
+  <listeners>
+    <listener class-name="com.qa.aoe.listeners.ExtentReportListener"/>
+  </listeners>
+  <test thread-count="5" name="HomeVacanciesPage Test_chrome(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.qa.aoe.tests.HomeVacanciesPageTest">
+        <methods>
+          <include name="filterOnVacanciesPage"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.qa.aoe.tests.HomeVacanciesPageTest -->
+    </classes>
+  </test> <!-- HomeVacanciesPage Test_chrome(failed) -->
+</suite> <!-- Failed suite [Test sanity PW Suite] -->

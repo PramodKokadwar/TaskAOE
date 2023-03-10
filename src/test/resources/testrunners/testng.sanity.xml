@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Test sanity PW Suite">
+
+	<listeners>
+		<listener
+			class-name="com.qa.aoe.listeners.ExtentReportListener" />
+
+	</listeners>
+
+	<test name="HomeVacanciesPage Test_chrome">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.qa.aoe.tests.HomeVacanciesPageTest" />
+		</classes>
+	</test>
+	    <!-- <test name=" HomeVacanciesPage Test_chromium">
+		<parameter name="browser" value="chromium" />
+		<classes>
+			<class name="com.qa.aoe.tests.HomeVacanciesPageTest" />
+		</classes>
+	</test>  -->
+
+
+	<!-- <test name=" HomeVacanciesPage Test_firefox">
+		<parameter name="browser" value="firefox" />
+		<classes>
+			<class name="com.qa.aoe.tests.HomeVacanciesPageTest" />
+		</classes>
+	</test> -->
+
+	<!-- <test name="HomeVacanciesPage Test_edge1">
+		<parameter name="browser" value="edge" />
+		<classes>
+			<class name="com.qa.aoe.tests.HomeVacanciesPageTest" />
+		</classes>
+	</test> -->
+
+</suite>
